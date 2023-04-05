@@ -1,0 +1,76 @@
+.main-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be7c45db-607a-401d-80d5-afe56d8cd306/dczpv89-fdbf6bf6-3d2c-4337-b77c-6254888e739e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JlN2M0NWRiLTYwN2EtNDAxZC04MGQ1LWFmZTU2ZDhjZDMwNlwvZGN6cHY4OS1mZGJmNmJmNi0zZDJjLTQzMzctYjc3Yy02MjU0ODg4ZTczOWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.wPaAe8IeWU6WbTTuVsFKTt1FaE_TMBALyUORyqCYoys");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.discover-button{    
+      appearance: none;
+      backface-visibility: hidden;
+      background-color: #27ae60;
+      border-radius: 8px;
+      border-style: none;
+      box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: normal;
+      line-height: 1.5;
+      outline: none;
+      overflow: hidden;
+      padding: 13px 20px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transform: translate3d(0, 0, 0);
+      transition: all .3s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: top;
+      white-space: nowrap;
+    }
+    
+    .discover-button:hover {
+      background-color: #1e8449;
+      opacity: 1;
+      transform: translateY(0);
+      transition-duration: .35s;
+    }
+    
+    .discover-button:active {
+      transform: translateY(2px);
+      transition-duration: .35s;
+    }
+    
+    .discover-button:hover {
+      box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+    }

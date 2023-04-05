@@ -1,5 +1,5 @@
 export interface Location {
-    title: string;
+    name: string;
     description: string;
-    image: string;
+    imageURL: string;
 }

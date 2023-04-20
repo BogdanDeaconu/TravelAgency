@@ -3,4 +3,12 @@
     <input type="text" class="search-input" placeholder="Select your city">
 </div>
 
-
+<div class="Articels-container">
+    <ng-container *ngFor="let thisArticel of listOfInformation">
+    <div class="Articel-container">
+       <h2>{{thisArticel.title}}</h2>
+       <p>{{thisArticel.name}}</p>
+       <p>{{thisArticel.description}}</p>
+    </div>
+</ng-container>
+</div>

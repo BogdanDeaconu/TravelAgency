@@ -28,6 +28,16 @@ export class LocationsComponent {
       name: "Location 4",
       description: 'This is the fourth location',
       imageURL: 'https://www.w3schools.com/w3images/lights.jpg'
+    },
+    {
+      name: "Location 5",
+      description: 'This is the fifth location',
+      imageURL: 'https://www.w3schools.com/w3images/lights.jpg'
+    },
+    {
+      name: "Location 6",
+      description: 'This is the sixth location',
+      imageURL: 'https://www.w3schools.com/w3images/lights.jpg'
     }
   ]
 }
